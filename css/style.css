@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    flex-basis: auto;
+}
+
+html{
+    background-color: rgba(169, 169, 169, 0.918);
+}
+
+
+
+header {
+    display: flex; /*beseeru 7d b3d*/
+    background-color: black;
+    justify-content: space-between;
+    /*align-items: center;*/
+    height: 40px;
+    padding: 15px;
+
+}
+
+.left-section{
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+
+}
+
+
+
+.right-section {
+    padding-left: 15px;
+    color: rgb(228, 213, 213);
+    background-color: black;
+}
+
+.right-section a {
+    color: black;
+}
+
+.body{
+    font-family: 'Cairo Play', cursive;
+   
+}
+
+nav{
+    font-weight: bold;
+    height: 100px;;
+}
+
+
+   .card1 {
+    background-size: contain;
+
+   }
+
+.card-body {
+    padding: 10px;
+}
